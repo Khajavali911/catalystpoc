@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 111.766 s <<< FAILURE! - in TestSuite
+feature(catalyst.automation.testrunner.testrunner)  Time elapsed: 58.053 s  <<< FAILURE!
+cucumber.runtime.CucumberException: When a hook declares an argument it must be of type cucumber.api.Scenario. public void catalyst.automation.stepdef.youtubesearchstepdef.BeforeFeature(com.aventstack.extentreports.gherkin.model.Feature)
+	at catalyst.automation.testrunner.testrunner.feature(testrunner.java:45)
+
